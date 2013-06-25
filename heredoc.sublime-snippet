@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<<-${1:Key}
+${0}
+${1:Key}
+]]></content>
+	<tabTrigger>here</tabTrigger>
+	<scope>source.shell</scope>
+    <description>Here Document</description>
+</snippet>

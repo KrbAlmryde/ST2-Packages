@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+"""
+==============================================================================
+  Assignment: ${1:Assignment Name}.py
+      Author: Kyle Reese Almryde
+Sect. Leader: Wyatt Davis
+
+      Course: ISTA 130
+  Instructor: Derek Green
+    Due Date: ${2:due date}, 2012, at 9:00 pm
+
+ Description: ${3}
+
+
+
+==============================================================================
+"""
+
+${4:import?}
+
+
+${0}
+
+
+
+#=============================== START OF MAIN ===============================
+
+def main():
+    pass
+
+
+if __name__ == '__main__':
+    main()
+
+]]></content>
+    <tabTrigger>pyhw</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

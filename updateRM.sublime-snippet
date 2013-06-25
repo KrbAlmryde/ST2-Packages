@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+#==============================================================================
+
+Today is ${1:today}
+
+${0}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>updateRM</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<description>Update Readme file</description>
+</snippet>

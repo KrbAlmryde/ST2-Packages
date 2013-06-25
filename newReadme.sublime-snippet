@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+#================================================================================
+# Directory Name: ${1: Directory Name}
+#         Author: Kyle Reese Almryde
+#           Host: Hagar@128.196.62.95
+#           Date: ${2:today}
+#
+#        Project:
+#             PI:
+#          Grant:
+#
+#    Description: ${3}
+#
+#
+#       Contents:
+#          Tools:
+#  Current State:
+#
+#================================================================================
+
+HISTORY:
+
+Today is ${4:today}
+
+${0}
+]]></content>
+    <tabTrigger>newReadme</tabTrigger>
+    <source>plain text</source>
+    <description>Create a new Readme File</description>
+</snippet>

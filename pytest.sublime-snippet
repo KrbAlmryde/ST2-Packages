@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+		#!/usr/bin/env python
+		# encoding: utf-8
+		"""
+		${TM_NEW_FILE_BASENAME}.py
+
+		Created by ${TM_FULLNAME} on ${TM_DATE}.
+		Copyright (c) ${TM_YEAR} ${TM_ORGANIZATION_NAME}. All rights reserved.
+		"""
+
+		import unittest
+
+
+		class ${TM_NEW_FILE_BASENAME}(unittest.TestCase):
+			def setUp(self):
+				pass
+
+
+		if __name__ == '__main__':
+			unittest.main()
+			]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>pytest</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Setup a template unit test</description>
+</snippet>

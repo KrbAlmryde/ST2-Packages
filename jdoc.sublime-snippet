@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:Description}
+ *
+ *
+ * @param ${2}
+ *
+ *
+ * @return ${3}
+ */
+]]></content>
+	<tabTrigger>jdoc</tabTrigger>
+	<description>JavaDoc block comment Method stub</description>
+	<scope>source.java</scope>
+</snippet>

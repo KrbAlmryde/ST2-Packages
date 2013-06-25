@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+    #------------------------------------------------------------------------
+    #
+    #   Description: ${1:Method Name}
+    #
+    #       Purpose: ${2}
+    #
+    #         Input:
+    #
+    #        Output:
+    #
+    #     Variables:
+    #
+    #------------------------------------------------------------------------
+
+    def ${1:Method Name}
+        ${0}
+    end
+
+]]></content>
+    <tabTrigger>rdef</tabTrigger>
+    <scope>source.ruby</scope>
+</snippet>
+
+

@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+#!/bin/bash
+#================================================================================
+#	Program Name: ${1}.sh
+#		  Author: Kyle Reese Almryde
+#			Date: ${2}
+#
+#	 Description: ${3}
+#                
+#                
+#                
+#	Deficiencies: 
+#                
+#                
+#                
+#                
+#
+#================================================================================
+#                            FUNCTION DEFINITIONS 
+#================================================================================
+
+${0}
+
+
+#================================================================================
+#                                START OF MAIN
+#================================================================================
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newbash</tabTrigger>
+	<description>new shell script</description>
+</snippet>

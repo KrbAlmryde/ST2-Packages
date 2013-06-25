@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${2: Description}
+ *
+ *
+ */
+@Test
+public void test${1:MethodName}() {
+	${3:Class} ${4:var} = new ${3:Class}();
+	assert${5:Equals/True}(${6:expected}, ${4:var}.${1:methodName}(${7:input}));
+
+} // End of test${1:Method}
+]]></content>
+	<tabTrigger>jtest</tabTrigger>
+	<description>Define a new JUnit test</description>
+	<scope>source.java</scope>
+</snippet>

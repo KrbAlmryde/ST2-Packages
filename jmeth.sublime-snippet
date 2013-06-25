@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${2: Description}
+ *
+ *
+ * @param ${3}
+ *
+ *
+ * @return ${4}
+ */
+public ${5:type} ${1:Method}(${3:type parameters}) {
+	${0}
+
+} // End of ${1:Method}
+]]></content>
+	<tabTrigger>jmeth</tabTrigger>
+	<description>Define a new Java method</description>
+	<scope>source.java</scope>
+</snippet>

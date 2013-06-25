@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[
+/*+----------------------------------------------------------------------
+||
+||  Class ${1:class name} 
+||
+||         Author:  Kyle Almryde
+||
+||        Purpose:  ${2: Description of purpose}
+||                  
+||                  
+||                
+||
+||  Inherits From:  ${3:None}
+||
+||     Interfaces:  {$4:None}
+||
+|+-----------------------------------------------------------------------
+||
+||      Constants:  ${5:None}
+||
+|+-----------------------------------------------------------------------
+||
+||   Constructors:  ${1:Constructor} ()
+||					${1:Constructor} (${6:parameters})
+||
+||  Class Methods:  ${6:None}
+||
+||  Inst. Methods:  ${7:return type} ${8:method name} ()
+||					
+||
+++-----------------------------------------------------------------------*/
+
+public class ${1:class name} {
+
+
+    /*---------------------------------------------------------------------
+    |          Method: ${1:Constructor}
+    |
+    |         Purpose: 
+    |                  
+    |                  
+    |
+    |      Parameters: ${6:parameters}
+    |                  
+    |                 
+    |         Returns: None
+    *-------------------------------------------------------------------*/
+    
+    public ${1:Constructor}(${6:parameters}) {
+
+
+    } // End of ${1:Constructor}
+
+
+
+
+} // End of ${1:class name}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jclass</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>

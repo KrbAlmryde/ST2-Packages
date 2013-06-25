@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+Block ${0:num}: Time is in Seconds
+================================================
+Event   Length   Start time   End time
+-------------------------------------------------
+lsCue   7.2      ${1}          ${2}
+lsBlk   21.6     ${2}          ${3}
+rsCue   7.2      ${3}          ${4}
+rsBlk   21.6     ${4}          ${5}
+stCue   7.2      ${5}          ${6}
+ctBlk   21.6     ${6}          ${7}
+
+]]></content>
+    <tabTrigger>iceBlock</tabTrigger>
+</snippet>

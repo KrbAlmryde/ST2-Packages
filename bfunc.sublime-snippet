@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+
+function ${1}() {
+    #------------------------------------------------------------------------
+    #
+    #  Purpose: ${2}
+    #
+    #
+    #    Input:
+    #
+    #   Output:
+    #
+    #------------------------------------------------------------------------
+
+    local ${3:DIRNAME=/path/}
+    local ${4:var=param1}
+
+} # End of ${1}
+
+
+]]></content>
+    <tabTrigger>bfunc</tabTrigger>
+    <scope>source.shell</scope>
+<description>new bash function</description>
+</snippet>

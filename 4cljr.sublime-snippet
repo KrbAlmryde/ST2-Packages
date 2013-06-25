@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+;;****************************************************************************
+;; ${1:00?} ${2:Problem name}.
+;; ${3:Description}
+;;
+;; test cases:
+;; ${4:test case}
+
+${4:solution}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>4cljr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.clojure</scope>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${2: Description}
+ *
+ *
+ *
+ * @author ${3}
+ *
+ */
+
+import java.util.*;		// Gives easy access to Java API's "util" package
+
+
+public class ${1}  {
+
+	${0}
+
+
+
+} // End of ${1:class}
+]]></content>
+	<tabTrigger>newjava</tabTrigger>
+</snippet>

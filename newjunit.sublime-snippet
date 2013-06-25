@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${2: Description}
+ *
+ *
+ *
+ * @author ${3}
+ *
+ */
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class ${1}Test {
+
+	${0}
+}
+]]></content>
+	<tabTrigger>newjunit</tabTrigger>
+</snippet>

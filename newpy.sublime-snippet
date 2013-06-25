@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[
+"""
+==============================================================================
+Program: ${1:Program Name}.py
+ Author: Kyle Reese Almryde
+   Date: ${2:today}
+
+ Description: ${3}
+
+
+
+==============================================================================
+"""
+
+${4:import?}
+
+
+${0}
+
+
+
+#=============================== START OF MAIN ===============================
+
+def main():
+    pass
+
+
+if __name__ == '__main__':
+    main()
+
+]]></content>
+    <tabTrigger>newpy</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

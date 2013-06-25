@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+;;****************************************************************************
+;; Program Name: ${1:Program name}
+;;		 Author: Kyle Reese Almryde
+;;		   Date: ${2:today}
+;;
+;;  Description: ${3:Description}
+;;
+;;****************************************************************************
+
+${4:require}
+
+
+${0:begin}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newcljr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.clojure</scope>
+</snippet>

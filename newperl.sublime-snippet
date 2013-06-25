@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+#!/bin/perl
+#================================================================================
+#	Program Name: ${1}.pl
+#		  Author: Kyle Reese Almryde
+#			Date: $(date +"%B %d %Y")
+#
+#	 Description: 
+#				  
+#				  
+#
+#	Deficiencies: 
+#				  
+#				  
+#				  
+#				  
+#
+#================================================================================
+#								START OF MAIN
+#================================================================================
+
+use feature ':5.10';
+
+	#------------------------------------------------------------------------
+	#
+	#	Description: a
+	#				  
+	#		Purpose: a
+	#				  
+	#		  Input: a
+	#				  
+	#		 Output: a  
+	#				  
+	#	  Variables: a
+	#				  
+	#------------------------------------------------------------------------
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

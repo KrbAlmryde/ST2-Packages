@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${2: Description}
+ *
+ *
+ * @param ${3}
+ *
+ *
+ * @return ${4}
+ */
+${4:start}
+
+
+/*--------------------------------------------------------------------
+|     Method: ${1:Method Name}
+|
+|    Purpose: ${2}
+|
+| Parameters:
+|
+|    Returns:
+*-------------------------------------------------------------------*/
+${3}
+]]></content>
+	<tabTrigger>jcomm</tabTrigger>
+	<description>block comment Method stub</description>
+	<scope>source.java</scope>
+</snippet>

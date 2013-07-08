@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 500,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"color_scheme": "Packages/Mreq Color Scheme/mreq.tmTheme",
 	"convert_indentation_to_spaces": true,
 	"detect_indentation": true,
 	"detect_slow_plugins": true,
@@ -28,6 +28,9 @@
 		"*.suo",
 		"*.pdb",
 		"*.idb",
+		"*.zip",
+		".nii",
+		"*.nii.gz",
 		".DS_Store",
 		"*.class",
 		"*.psd",
@@ -46,13 +49,14 @@
 	"ignored_packages":
 	[
 		"Vintage",
+		"SMART-Snippets",
 		"Emmet"
 	],
 	"scroll_past_end": true,
 	"soda_classic_tabs": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false

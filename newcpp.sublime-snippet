@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Program Name: $TM_FILENAME
+ *       Author: Kyle Reese Almryde
+ *  Description: ${1:Program Description}
+ */
+${2:#include <${3}>}
+${4:using namespace ${5:ns}}
+
+${0:main}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>newcpp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
